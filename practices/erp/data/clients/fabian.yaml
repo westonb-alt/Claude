@@ -1,0 +1,16 @@
+# Fabian — Client Configuration
+client_name: fabian
+display_name: "Fabian"
+practice: erp
+status: active
+
+# Fill in as engagement progresses
+industry: ""
+company_size: ""
+budget_range: ""
+existing_systems: []
+key_contacts: []
+
+notes: |
+  First Sayer engagement using the agent platform.
+  ERP selection phase — vendor agnostic with Oracle/NetSuite as likely candidates.

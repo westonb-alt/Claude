@@ -1,0 +1,7 @@
+# Practice Configuration Template
+practice: your_practice_name
+display_name: "Your Practice Display Name"
+description: "Brief description of this practice area"
+
+agents: []
+workflow: []

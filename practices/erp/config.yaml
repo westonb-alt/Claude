@@ -1,0 +1,17 @@
+# ERP Practice Configuration
+practice: erp
+display_name: "ERP Selection & Implementation"
+description: "ERP vendor evaluation, selection, implementation support, and post-go-live assistance"
+
+agents:
+  - vendor_research
+  - requirements
+  - scoring
+  - recommendation
+
+# Default workflow: run agents in this order
+workflow:
+  - requirements
+  - vendor_research
+  - scoring
+  - recommendation
