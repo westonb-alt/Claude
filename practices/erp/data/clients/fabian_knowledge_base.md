@@ -133,6 +133,33 @@
 
 ---
 
+## Key Client Description (Billy → DOSS/Campfire, Mar 3, 2026)
+
+> Verbatim from Billy's initial outreach — this is the canonical client description:
+
+"Fabian Clothing Group (Valesco Industries portfolio) — An apparel importer offering value-added services like embroidery. Currently operating on a broken system reliant on Excel and failed API integrations. Their GL doesn't reconcile with sub-ledgers, units of measure are incorrect, and POs frequently disappear. They need dependable connectors for Salesforce, EDI partners, and warehouse systems without relying on custom builds that are prone to failure. They've evaluated Microsoft BC, NetSuite, and Acumatica but haven't selected a platform yet. We introduced DOSS and Campfire today, and they're interested in seeing demos."
+
+### Sayer's Platform Thesis (Billy → DOSS, Mar 3)
+"Sayer believes the combination of DOSS (operations), Campfire (F&A), and Rippling (HRIS/IT) represents the future of the integrated business platform, replacing legacy all-in-one ERPs such as NetSuite."
+
+### Attachments Shared with Vendors
+- `Volt + Fabian Group Proposal Review - Dec 16 2025.pdf` — Volt's MS Business Central proposal
+- `Implementation Plan - Fabian Group - 12.16.2025.xlsx` — Volt's implementation timeline
+- `Fabian-ERP-Assessment-Proposal-v2.docx` — Sayer's assessment proposal
+
+### DOSS Fit Assessment (Seb, Mar 4)
+- "Looks like a solid fit, though we'd need discovery to confirm"
+- DOSS self-disqualified from Five Lakes Manufacturing ("manufacturing isn't our current strength")
+- DOSS offers a "GL bridge" — customers can upgrade operations without migrating existing GL
+
+### Vendors Previously Evaluated by Fabian (Pre-Sayer)
+1. Microsoft Business Central — Volt Technologies as implementer (leading candidate before Sayer)
+2. NetSuite — evaluated
+3. Acumatica — evaluated
+4. None selected
+
+---
+
 ## Open Questions / Gaps
 1. Do we have ALL documentation from Volt Technologies?
 2. Which 2-3 stakeholders should be interviewed? (Vlada to designate)

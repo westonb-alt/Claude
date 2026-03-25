@@ -4,6 +4,7 @@ Usage:
     python -m scripts.run_agent erp vendor-research --client fabian
     python -m scripts.run_agent erp requirements --client fabian
     python -m scripts.run_agent erp scoring --client fabian
+    python -m scripts.run_agent erp gap-analysis --client fabian
     python -m scripts.run_agent erp full-workflow --client fabian
 """
 
@@ -26,6 +27,7 @@ from practices.erp.agents import (
     RequirementsAgent,
     ScoringAgent,
     RecommendationAgent,
+    GapAnalysisAgent,
 )
 
 console = Console()
@@ -36,6 +38,7 @@ AGENT_MAP = {
         "requirements": RequirementsAgent,
         "scoring": ScoringAgent,
         "recommendation": RecommendationAgent,
+        "gap-analysis": GapAnalysisAgent,
     }
 }
 
