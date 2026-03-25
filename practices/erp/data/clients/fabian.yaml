@@ -1,16 +1,145 @@
-# Fabian — Client Configuration
+# Fabian Clothing Group — Client Configuration
 client_name: fabian
-display_name: "Fabian"
+display_name: "Fabian Clothing Group"
 practice: erp
 status: active
+pe_sponsor: "Valesco Industries"
 
-# Fill in as engagement progresses
-industry: ""
-company_size: ""
-budget_range: ""
-existing_systems: []
-key_contacts: []
+# Company Profile
+industry: "Apparel / Clothing Manufacturing & Distribution"
+company_size: "Mid-market (PE-backed portfolio company)"
+budget_range: "TBD — pending Valesco/board approval"
+
+# Current Technology Stack
+existing_systems:
+  - name: "NetSuite"
+    role: "Current ERP"
+    status: "In use — under evaluation for replacement or optimization"
+  - name: "Salesforce"
+    role: "CRM"
+    status: "Active — integration issues with telephony"
+  - name: "Amazon Connect"
+    role: "Telephony / Contact Center"
+    status: "Active — significant issues (call recordings, transcripts, routing failures)"
+  - name: "Volt Technologies"
+    role: "Prior implementation partner (Microsoft Business Central plans)"
+    status: "Documentation from Volt being reviewed"
+
+# ERP Vendors Under Evaluation
+vendors_in_scope:
+  - name: "NetSuite"
+    status: "Incumbent — being assessed"
+    notes: "Current system. Evaluating whether to optimize or replace."
+  - name: "DOSS"
+    status: "Demo being coordinated"
+    notes: "Modern ERP option. Seb Debrouwere is contact. Discovery started."
+    contacts:
+      - "seb@doss.com"
+      - "luke.bellber@doss.com"
+  - name: "Campfire"
+    status: "Demo being coordinated"
+    notes: "Modern ERP option. Jack Arrix and Chris Camilleri are contacts."
+    contacts:
+      - "chris@campfire.ai"
+      - "jack@campfire.ai"
+
+# Key Pain Points (from Discovery Session 3/19 — CS/CX)
+pain_points:
+  - "Incomplete call recordings and unreliable transcripts (Salesforce-Amazon Connect)"
+  - "Call routing failures leading to manual interventions"
+  - "Agents unable to transfer calls; no customer identification on inbound calls"
+  - "11 CS agents dealing with increased manual processes for call logging and quality checks"
+  - "Licensing complexity — mix of licenses across different user needs with varying costs"
+  - "Documentation of requirements and customizations currently incomplete"
+  - "Need for thorough review of contracts and billing"
+
+# Key Contacts — Client Side
+key_contacts:
+  - name: "Vlada Rassin"
+    role: "CFO"
+    email: "vrassin@fabiangroup.com"
+    notes: "Primary decision maker. Needs CEO/board sign-off from Valesco to kick off assessment."
+  - name: "Danielle Novak (Mallizzio)"
+    role: "Finance / Operations"
+    email: "dnovak@fabiangroup.com"
+    notes: "Supports Vlada. Key stakeholder for financial reporting, cash flow modeling."
+  - name: "Alex Gordin"
+    role: "Operations / Contracts"
+    email: "agordin@fabiangroup.com"
+    notes: "Involved in contract review and Salesforce admin."
+  - name: "Isabel Alicea"
+    role: "Customer Service"
+    email: ""
+    notes: "CS team lead. 11 agents. Key pain points around telephony and manual processes."
+
+# Key Contacts — Sayer Team
+sayer_team:
+  - name: "Billy Leigh"
+    role: "Founder / Engagement Lead"
+    email: "billy@gosayer.com"
+  - name: "Weston Baker"
+    role: "Consultant / AI & Technology Lead"
+    email: "weston.b@gosayer.com"
+  - name: "Terry Hooten"
+    role: "Senior Consultant / Requirements & Discovery Lead"
+    email: "terry.h@gosayer.com"
+  - name: "Cameron Taggart"
+    role: "Consultant / Technical Discovery"
+    email: "cameron@gosayer.com"
+  - name: "Mike Forster"
+    role: "Consultant"
+    email: "mike.f@gosayer.com"
+
+# Key Contacts — PE Sponsor
+pe_contacts:
+  - name: "Addison (Valesco)"
+    role: "PE Contact"
+    notes: "Potential lever to expedite Vlada's approval"
+
+# Engagement Timeline
+timeline:
+  kickoff_email: "2026-03-17"
+  internal_kickoff: "2026-03-25"
+  status: "Waiting on Vlada/Valesco board approval to formally begin"
+  target_kickoff_with_client: "Week of 2026-04-08"
+  demos_planned: ["Campfire", "DOSS"]
+  documents_from: "Volt Technologies (NetSuite docs, recorded demos)"
+
+# Engagement Objectives (from kickoff meeting 3/25)
+objectives:
+  - "Review all existing requirements documentation for completeness"
+  - "Validate requirements align with strategic goals and address pain points"
+  - "Ensure proper sign-offs and stakeholder involvement in the process"
+  - "Interview 2-3 key stakeholders to validate documentation accuracy"
+  - "Assess vendor proposals for fit, completeness, and alignment"
+  - "Coordinate and evaluate demos from DOSS and Campfire"
+  - "Produce executive-ready recommendation for ERP selection"
+
+# AI Strategy (from kickoff meeting 3/25)
+ai_approach: |
+  Hybrid AI + human approach:
+  - First 10%: Human setup and context gathering
+  - Middle 70%: Claude AI synthesis, research, gap analysis
+  - Final 20%: Human judgment, interviews, refinement
+
+  Each project builds a reusable skill/asset for the firm.
+  Iterative loop that becomes recursive — skill improves with every engagement.
 
 notes: |
-  First Sayer engagement using the agent platform.
-  ERP selection phase — vendor agnostic with Oracle/NetSuite as likely candidates.
+  PE-backed apparel company. Valesco Industries is the sponsor.
+  Board is expecting the ERP assessment to be completed.
+  Vlada (CFO) needs CEO/board final approval to formally engage.
+  Billy sent kickoff email 3/17 to get ball rolling on Sayer side.
+  Internal kickoff held 3/25 — Weston, Terry, Billy aligned on approach.
+
+  Documentation from Volt Technologies is in shared Google Drive folder.
+  Terry flagged that documentation appears incomplete — need to validate
+  with 2-3 key stakeholders before running AI analysis.
+
+  Also running Salesforce/telephony discovery (Cameron + Mike leading CS/CX track).
+  6F Discovery Session held 3/19 with Alex Gordin and Danielle Novak.
+
+  Concurrent Sayer ERP engagements for cross-reference:
+  - Five Lakes Manufacturing (FLM) — Epicor evaluation, active vendor demos
+  - NAKS Inc — NetSuite issues, manufacturing module needed
+  - Topdown Auto — NetSuite/legacy ERP migration (Intuitive ERP)
