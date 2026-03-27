@@ -18,6 +18,10 @@ env/
 
 # Agent output
 output/
+*.docx
+
+# Node
+node_modules/
 
 # Secrets
 .env
