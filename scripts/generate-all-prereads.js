@@ -234,7 +234,197 @@ const projects = [
   },
 
   // =========================================================================
-  // 6. Dewise — Weekly Sync (Green)
+  // 6. ResinSmart / RTI Global — Product & Go-to-Market
+  // =========================================================================
+  {
+    filename: "resinsmart_rti_preread_mar24.docx",
+    config: {
+      clientName: "ResinSmart / RTI Global",
+      owners: "Cameron Taggart / Weston Baker",
+      weekOf: "Week of Mar 24",
+      workstreams: "Product & Go-to-Market",
+
+      shippedText:
+        "New $360K two-year NPK deal closed. Pipeline grew to $600K. Client Data Strategy product nearing completion. Paid media spend increasing to $5,500/month. Resin price forecasting models being built with Claude AI. Benchmark landing page under development. April webinar planned on procurement strategies. Marmon quarterly meeting prep underway for April 2.",
+
+      blockedText:
+        "Several strategic decisions and renewals need resolution:",
+      blockedBullets: [
+        "ISIS subscription renewal ($30K/year) due May 28 \u2014 debating necessity vs. CMA as a cheaper backup data source",
+        "Everstream platform implementation scheduled for April but contract terms and data sharing rights still being negotiated",
+        "Naming inconsistency between \u201Cbenchmark\u201D and \u201Cdiagnostic\u201D offerings causing market confusion",
+        "Free trial signups dropped to 6 in February \u2014 conversion funnel needs improvement",
+      ],
+
+      decisionQuestion:
+        "Do we renew the ISIS subscription or switch to CMA?",
+      decisionOptions: [
+        {
+          label: "Option A: Renew ISIS",
+          description:
+            "at $30K/year. Maintains data continuity and existing integrations. Negotiate for better terms before May 28 deadline.",
+        },
+        {
+          label: "Option B: Switch to CMA",
+          description:
+            "Lower cost alternative. Requires validation that CMA data quality meets forecasting model requirements.",
+        },
+      ],
+
+      callToAction:
+        "Finalize Everstream contract terms and lock in benchmark vs. diagnostic naming before April webinar.",
+    },
+  },
+
+  // =========================================================================
+  // 7. Fabian Group — ERP Assessment
+  // =========================================================================
+  {
+    filename: "fabian_group_preread_mar24.docx",
+    config: {
+      clientName: "Fabian Group",
+      owners: "Weston Baker / Terry Hooten",
+      weekOf: "Week of Mar 24",
+      workstreams: "ERP Assessment",
+
+      blockedText:
+        "Project kickoff is stalled pending CEO approval:",
+      blockedBullets: [
+        "Vlada Rassin (CEO) has not yet signed off on the engagement \u2014 board anticipates completion",
+        "Statement of Work requires sign-off before any billable work begins",
+        "Team is pre-loading by synthesizing existing documents and demos from Voltage, but cannot proceed formally",
+        "Addison may need to be involved to expedite Vlada\u2019s approval",
+      ],
+
+      shippedText:
+        "Team has prepared by synthesizing existing client documents and vendor demos from Voltage. AI-powered Claude skill being developed for reusable ERP assessment methodology. Claude Excel plugin demoed for financial modeling (52-week cash projections, forensic accounting). Engagement framework is ready to deploy once approved.",
+
+      decisionQuestion:
+        "How do we accelerate Vlada\u2019s approval?",
+      decisionOptions: [
+        {
+          label: "Option A: Engage Addison",
+          description:
+            "to facilitate board-level push for SOW sign-off. Faster but adds a political dimension.",
+        },
+        {
+          label: "Option B: Direct outreach",
+          description:
+            "Billy or Greg reach out to Vlada directly with a concise value summary and timeline to close.",
+        },
+      ],
+
+      callToAction:
+        "SOW sign-off is the single blocker. Determine escalation path to Vlada this week.",
+    },
+  },
+
+  // =========================================================================
+  // 8. Thunderbird Minerals — Savant Implementation
+  // =========================================================================
+  {
+    filename: "thunderbird_minerals_preread_mar24.docx",
+    config: {
+      clientName: "Thunderbird Minerals",
+      owners: "Weston Baker / Billy Leigh",
+      weekOf: "Week of Mar 24",
+      workstreams: "Savant AI Implementation",
+
+      isGreen: true,
+      greenText:
+        "Green. Implementing Savant platform ($5K/year) for AI-powered PDF processing of revenue statements. Four-week implementation plan on track. Justin Shaw providing sample PDFs and setting up Savant access. Broader use cases beyond PDF processing being scoped for future phases.",
+
+      callToAction: null,
+    },
+  },
+
+  // =========================================================================
+  // 9. Hari Mari — Amazon / E-commerce
+  // =========================================================================
+  {
+    filename: "hari_mari_preread_mar24.docx",
+    config: {
+      clientName: "Hari Mari",
+      owners: "Weston Baker",
+      weekOf: "Week of Mar 24",
+      workstreams: "Amazon & E-commerce",
+
+      shippedText:
+        "Amazon selling model determined unprofitable; strategic pivot to wholesale and DTC underway. Account health issues with shipping compliance identified and being addressed.",
+
+      blockedText:
+        "Multiple Amazon platform access issues are blocking progress:",
+      blockedBullets: [
+        "Developer API access requires account owner permissions \u2014 Hortensia and Avi need to grant access",
+        "Password reset and admin access needed for the Ops Amazon account",
+        "Payment method updates required before developer app access can be provisioned",
+        "Amazon AI is altering product pages without authorization, creating content drift",
+        "Unauthorized sellers creating vendor conflicts on listings",
+      ],
+
+      decisionQuestion:
+        "Does Hari Mari want to continue investing in the Amazon channel?",
+      decisionOptions: [
+        {
+          label: "Option A: Fix and maintain",
+          description:
+            "Resolve access issues, clean up listings, and run Amazon as a reduced-margin channel alongside DTC.",
+        },
+        {
+          label: "Option B: Wind down Amazon",
+          description:
+            "Shift fully to wholesale and DTC. Redirect Amazon ops budget to higher-margin channels.",
+        },
+      ],
+
+      callToAction:
+        "Hortensia and Avi must provide developer API permissions and account admin access before any technical work can proceed.",
+    },
+  },
+
+  // =========================================================================
+  // 10. Mos Vita / Mas Vida Health — Accounting & Inventory
+  // =========================================================================
+  {
+    filename: "mos_vita_preread_mar24.docx",
+    config: {
+      clientName: "Mos Vita / Mas Vida Health",
+      owners: "Robert Shapiro / Shafi",
+      weekOf: "Week of Mar 24",
+      workstreams: "Accounting & Inventory",
+
+      blockedText:
+        "Resource risk has emerged due to unexpected staff departure:",
+      blockedBullets: [
+        "AP clerk unexpectedly resigned \u2014 creates coverage gap for accounts payable processing",
+        "Inventory reconciliation scope expanding through 2025, increasing workload beyond original estimate",
+      ],
+
+      shippedText:
+        "Engagement scope expanding into extensive inventory reconciliation. Shafi managing day-to-day execution with Robert Shapiro overseeing. Robert owns all client communications for technical teams.",
+
+      decisionQuestion:
+        "How do we cover the AP clerk gap?",
+      decisionOptions: [
+        {
+          label: "Option A: Sayer provides interim AP support",
+          description:
+            "Staff a temporary resource to cover AP processing while Mos Vita hires a replacement. Keeps operations running.",
+        },
+        {
+          label: "Option B: Client hires directly",
+          description:
+            "Mos Vita sources their own AP replacement. Lower cost but risk of processing delays during the gap.",
+        },
+      ],
+
+      callToAction:
+        "Robert Shapiro to confirm AP coverage plan with Mos Vita leadership this week.",
+    },
+  },
+
+  // =========================================================================
+  // 11. Dewise — Post-Merger Integration (Green)
   // =========================================================================
   {
     filename: "dewise_preread_mar24.docx",
@@ -253,7 +443,7 @@ const projects = [
   },
 
   // =========================================================================
-  // 7. Epicor Partnership — Channel & Referral
+  // 12. Epicor Partnership — Channel & Referral
   // =========================================================================
   {
     filename: "epicor_partnership_preread_mar24.docx",
